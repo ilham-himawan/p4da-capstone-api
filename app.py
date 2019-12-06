@@ -2,6 +2,10 @@ from flask import Flask, request
 import pandas as pd 
 app = Flask(__name__) 
 
+@app.route('/')
+def index():
+    return "<h1>Welcome to our server !!</h1>"
+
 # mendapatkan keseluruhan data dari <data_name>
 @app.route('/data/get/<data_name>', methods=['GET']) 
 def get_data(data_name): 
