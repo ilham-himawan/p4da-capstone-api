@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "<h1>Welcome to our server !!</h1>"
+    return "<h1>Welcome to our Capstone Server!!</h1>"
 
 # mendapatkan keseluruhan data dari <data_name>
 @app.route('/data/get/<data_name>', methods=['GET']) 
