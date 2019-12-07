@@ -28,7 +28,7 @@ Mengembalikan data <data_name> dalam bentuk JSON. Beberapa data yang tersedia ad
     - books_c.csv
     - pulsar_stars.csv 
     
-3. /data/get/equal/<data_name>/<column>/<value>
+3. /data/get/equal/<data_name>/<column>/<value> , method = GET
 Mengembalikan <data_name> yang telah di filter dimana nilai pada <column> = <value>
 ```
 
