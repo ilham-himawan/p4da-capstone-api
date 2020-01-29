@@ -21,15 +21,15 @@ We have deployed a simple example on : https://algo-capstone.herokuapp.com
 Here's the list of its endpoints: 
 ```
 1. / , method = GET
-Merupakan endpoint home, dan akan mengembalikan nilai berupa string selamat datang
+Base Endpoint, returning welcoming string value. 
 
 2. /data/get/<data_name> , method = GET
-Mengembalikan data <data_name> dalam bentuk JSON. Beberapa data yang tersedia adalah : 
+Return full data <data_name> in JSON format. Currently available data are:
     - books_c.csv
     - pulsar_stars.csv 
     
 3. /data/get/equal/<data_name>/<column>/<value> , method = GET
-Mengembalikan <data_name> yang telah di filter dimana nilai pada <column> = <value>
+Return all <data_nam> where the value of column <column> is equal to <value>
 ```
 
 If you want to try it, you can access (copy-paste it) : 
